@@ -1,7 +1,17 @@
-# !Calculator — Not Boring Calculator
-
 <p align="center">
   <img src="assets/icon.png" alt="!Calculator icon" width="120" />
+</p>
+
+<h1 align="center">!Calculator — Not Boring Calculator</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=18&pause=1200&color=E8A11A&center=true&vCenter=true&width=560&lines=Show+your+math+in+full+color;Live+preview+as+you+type;Six+skins%2C+haptics%2C+DTMF+ready" alt="Typing intro" />
+</p>
+
+<p align="center">
+  <a href="#quick-start"><img alt="Quick Start" src="https://img.shields.io/badge/Quick_Start-%F0%9F%9A%80-FF9F1C?style=for-the-badge" /></a>
+  <a href="#features"><img alt="Features" src="https://img.shields.io/badge/Features-%E2%9C%A8-7C5CFF?style=for-the-badge" /></a>
+  <a href="#skins"><img alt="Skins" src="https://img.shields.io/badge/Skins-%F0%9F%8E%A8-2EC4B6?style=for-the-badge" /></a>
 </p>
 
 <p align="center">
@@ -17,11 +27,20 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green" />
 </p>
 
+<p align="center">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/almostalok/Boring-calculator?style=for-the-badge" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/almostalok/Boring-calculator?style=for-the-badge" />
+  <img alt="Forks" src="https://img.shields.io/github/forks/almostalok/Boring-calculator?style=for-the-badge" />
+  <img alt="Open issues" src="https://img.shields.io/github/issues/almostalok/Boring-calculator?style=for-the-badge" />
+  <img alt="Repo size" src="https://img.shields.io/github/repo-size/almostalok/Boring-calculator?style=for-the-badge" />
+</p>
+
 ---
 
 ## Table of Contents
 
 - [Overview](#overview)
+- [In Motion](#in-motion)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Quick Start](#quick-start)
@@ -39,6 +58,33 @@
 ## Overview
 
 **!Calculator** is a feature-rich mobile calculator that trades the plain grid of numbers for a polished, expressive experience. It shows your full equation as you type, lets you edit any part of it, previews the result in real time, and wraps it all in six hand-crafted visual skins — from matte Graphite to neon Monsters.
+
+---
+
+## In Motion
+
+<p align="center">
+  <img src="assets/splash.png" alt="!Calculator splash screen" width="720" />
+</p>
+
+<details>
+<summary><strong>Tap to reveal the micro-interactions</strong></summary>
+
+- **Springy keypad** with tactile press animations on every key.
+- **Live equation flow** that keeps your full expression visible as it grows.
+- **Result preview** that updates continuously before you hit `=`.
+- **Haptics everywhere** for a punchy, physical feel.
+</details>
+
+<details>
+<summary><strong>Tap to reveal the sound + skin stack</strong></summary>
+
+- **DTMF-ready tones** (drop in `.wav` files to make every key sing).
+- **Six hand-crafted skins** for graphite, neon, gold, and more.
+- **Gradient accents** and oversized typography for that “not boring” vibe.
+</details>
+
+> **Tip:** Long-press the result display to copy the value instantly.
 
 ---
 
