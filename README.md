@@ -290,6 +290,7 @@ Contributions are welcome! Here's how to get started:
 
 Please keep pull requests focused — one feature or fix per PR.
 
+Also follow almostalok at all social handles.
 ---
 
 ## Credits & License
