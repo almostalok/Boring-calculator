@@ -45,9 +45,11 @@
 - [Prerequisites](#prerequisites)
 - [Quick Start](#quick-start)
 - [Running on a Device or Simulator](#running-on-a-device-or-simulator)
+- [Available Scripts](#available-scripts)
 - [Project Structure](#project-structure)
 - [Skins](#skins)
 - [Adding Real DTMF Audio](#adding-real-dtmf-audio)
+- [Troubleshooting](#troubleshooting)
 - [Building for Production](#building-for-production)
 - [Tech Stack](#tech-stack)
 - [Contributing](#contributing)
@@ -155,6 +157,20 @@ npx expo start --web
 
 ---
 
+## Available Scripts
+
+Run these from the project root:
+
+| Command | Description |
+|---|---|
+| `npm run start` | Starts the Expo development server |
+| `npm run ios` | Starts Expo and opens iOS Simulator (macOS only) |
+| `npm run android` | Starts Expo and opens Android Emulator/device |
+| `npm run web` | Starts Expo for web preview |
+| `npm run lint` | Runs ESLint for `.ts`/`.tsx` files |
+
+---
+
 ## Project Structure
 
 ```
@@ -223,6 +239,20 @@ The app ships with haptic feedback only. To add audible key tones:
 
 ---
 
+## Troubleshooting
+
+- **`npm run lint` fails with `eslint: not found`**  
+  Install ESLint as a dev dependency if your environment does not already provide it:
+  ```bash
+  npm install --save-dev eslint
+  ```
+- **No key sounds are playing**  
+  The project ships with haptics only by default. Add `.wav` files to `assets/sounds/` and enable audio loading in `src/engine/audio.ts`.
+- **Expo can’t connect to your device**  
+  Ensure your computer and phone are on the same network, or switch Expo connection mode to Tunnel.
+
+---
+
 ## Building for Production
 
 Production builds are handled by **Expo Application Services (EAS)**.
@@ -285,6 +315,7 @@ Contributions are welcome! Here's how to get started:
    ```bash
    npm run lint
    ```
+   If ESLint is missing in your environment, install it using the Troubleshooting section above.
 4. **Commit** with a clear message and **push** your branch.
 5. Open a **Pull Request** describing what you changed and why.
 
